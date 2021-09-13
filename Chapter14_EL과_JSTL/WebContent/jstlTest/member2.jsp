@@ -61,10 +61,10 @@
 			<td>${membersList2[0].email}</td>
 		</tr>
 		<tr> <!-- 세번째 회원정보 출력(손흥민) -->
-			<td>${membersList2.id}</td>
-			<td>${membersList2.pwd}</td>
-			<td>${membersList2.name}</td>
-			<td>${membersList2.email}</td>
+			<td>${membersList2[1].id}</td>
+			<td>${membersList2[1].pwd}</td>
+			<td>${membersList2[1].name}</td>
+			<td>${membersList2[1].email}</td>
 		</tr>
 	</table>
 </body>
