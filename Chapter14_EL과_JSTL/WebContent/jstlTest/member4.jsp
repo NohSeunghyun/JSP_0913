@@ -43,17 +43,17 @@ c는 태그앞에 붙는 접두어 -->
 		<!-- 자바의 switch문과 같음
 		choose는 switch when은 case -->
 		<c:choose>
-			<c:when test="${empty id}"> <!-- id가 비어있으면 -->
+			<c:when test="${empty id}"> <!-- case : id가 비어있으면 -->
 				<tr>
 					<td colspan="5">아이디를 입력하세요.</td>
 				</tr>
 			</c:when>
-			<c:when test="${empty name}"> <!-- name이 비어있으면 -->
+			<c:when test="${empty name}"> <!-- case : name이 비어있으면 -->
 				<tr>
 					<td colspan="5">이름을 입력하세요.</td>
 				</tr>
 			</c:when>
-			<c:otherwise> <!-- name이 비어있지 않으면 -->
+			<c:otherwise> <!-- default : name이 비어있지 않으면(=위의 조건이 다 거짓이면) -->
 				<tr>
 					<td>${id}</td>
 					<td>${pwd}</td>
