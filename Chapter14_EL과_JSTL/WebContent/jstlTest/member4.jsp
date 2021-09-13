@@ -42,7 +42,7 @@ c는 태그앞에 붙는 접두어 -->
 		</tr>
 		<!-- 자바의 switch문과 같음
 		choose는 switch when은 case -->
-		<c:choose>
+		<c:choose> <!-- switch문 -->
 			<c:when test="${empty id}"> <!-- case : id가 비어있으면 -->
 				<tr>
 					<td colspan="5">아이디를 입력하세요.</td>
