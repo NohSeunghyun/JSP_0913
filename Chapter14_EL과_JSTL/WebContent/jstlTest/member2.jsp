@@ -1,4 +1,6 @@
-<!-- test01폴더의 member5.jsp와 비교 -->
+<!-- test01폴더의 member5.jsp와 비교 
+	jstlTest폴더의 member5.jsp와도 비교 -->
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
     isELIgnored="false"%><!-- EL언어 사용하려면 페이지지시자 안에 코드를 넣어줘야 함 -->
