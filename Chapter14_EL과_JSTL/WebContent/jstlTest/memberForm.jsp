@@ -9,6 +9,7 @@
 <body>
 	<center><h2>회원 가입창</h2></center>
 	<form action="member2.jsp" method="post">
+	<!-- 테스트 할 때 member2.jsp, member5.jsp로 바꿔가면서 하면됨 -->
 		<table style="margin: 0 auto;" border="1">
 			<tr>
 				<td>아이디</td>
